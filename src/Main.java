@@ -6,10 +6,10 @@ public class Main {
         Customer customer = new Customer();
         customer.setAddress("Athens");
         Customer customer2 = new Customer();
-        customer.setAddress("Berlin");
+        customer2.setAddress("Berlin");
         System.out.println(customer.getAddress());
         System.out.println(customer2.getAddress());
-        System.out.println("Hello!");
+
 
     }
 }
