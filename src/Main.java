@@ -9,6 +9,7 @@ public class Main {
         customer.setAddress("Berlin");
         System.out.println(customer.getAddress());
         System.out.println(customer2.getAddress());
+        System.out.println("Hello!");
 
     }
 }
