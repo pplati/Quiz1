@@ -1,14 +1,9 @@
 public class Book {
 
-    public static void main(String[] args) {
 
-
-    }
 
     private String summary;
     private int numberOfPages;
-
-
 
 
     public Book(String summary, int numberOfPages) {
@@ -31,4 +26,15 @@ public class Book {
     public void setNumberOfPages(int numberOfPages) {
         this.numberOfPages = numberOfPages;
     }
+
+    public boolean isRepeatedSummary(String summary){
+        int doubleChar = Utilities.getFirstRepeatedCharacter(summary);
+        if (doubleChar == -1){
+            return false;}
+        else {
+            return true;}
+    }
+
+
 }
+
