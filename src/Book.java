@@ -35,6 +35,8 @@ public class Book {
             return true;}
     }
 
+    public void showPagesToRead(int numOfPages)
+
 
 }
 
